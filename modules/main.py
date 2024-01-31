@@ -31,7 +31,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hi!\n\nGive /TIGER Command to Downlaod From a Text file.\n")
+    editable = await m.reply_text("Hi!.\n")
 
 
 @bot.on_message(filters.command("restart"))
@@ -41,7 +41,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["TIGER"]))
+@bot.on_message(filters.command(["rajput"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('Hi\n\nTO download a test file send here » ')
     input: Message = await bot.listen(editable.chat.id)
@@ -162,8 +162,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n**Batch »** {raw_text0}\n\n'
-                cc1 = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n**Batch »** {raw_text0}\n\n'
+                cc = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n**Batch »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛
+                cc1 = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n**Batch »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -206,7 +206,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("Done Boss")
+    await m.reply_text("✅")
 
 
 bot.run()
