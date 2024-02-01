@@ -66,7 +66,7 @@ def hrt(seconds, precision = 0):
 
 timer = Timer()
 
-# Powered By AIR PHEONIX
+# 𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ๛𝗠𝗥๛𝗥͜͡𝗔𝗝𝗣𝗨𝗧๛
 async def progress_bar(current, total, reply, start):
     if timer.can_send():
         now = time.time()
@@ -92,7 +92,7 @@ async def progress_bar(current, total, reply, start):
             progress_bar = "▓" * completed_length + "▒" * remaining_length
             
             try:
-                await reply.edit(f'`\n ╭──⌯════Bot Statics═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n╰─═══ ✪ Powered By ๛𝗠𝗥๛𝗥͜͡𝗔𝗝𝗣𝗨𝗧๛ ✪ ═══─╯`\n') 
+                await reply.edit(f'`\n ╭──⌯════𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝗶𝗰𝘀═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 𝗦𝗽𝗲𝗲𝗱 » {sp} \n├📟 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝗱 » {cur}\n├🧲 Size - 𝗘𝗧𝗔 » {tot} - {eta} \n╰─═══ ✪ 𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ๛𝗠𝗥๛𝗥͜͡𝗔𝗝𝗣𝗨𝗧๛ ✪ ═══─╯`\n') 
             except FloodWait as e:
                 time.sleep(e.x)
 
