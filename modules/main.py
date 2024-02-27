@@ -106,9 +106,9 @@ async def account_login(bot: Client, m: Message):
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'no':
-        MR = highlighter 
+        MR = ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ 
     else:
-        MR = raw_text3
+        MR = ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛
    
     await editable.edit("𝗦𝗲𝗻𝗱 𝗧𝗵𝘂𝗺𝗯 𝘂𝗿𝗹 𝗼𝗿 𝗶𝗺𝗮𝗴𝗲")
     input6 = message = await bot.listen(editable.chat.id)
@@ -162,8 +162,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛}.mkv\n**𝗕𝗮𝘁𝗰𝗵 »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n **👉@TargetUPSC_2026**'
-                cc1 = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛}.pdf \n**𝗕𝗮𝘁𝗰𝗵 »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n **👉@TargetUPSC_2026**'
+                cc = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n**𝗕𝗮𝘁𝗰𝗵 »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n **👉@TargetUPSC_2026**'
+                cc1 = f'** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n**𝗕𝗮𝘁𝗰𝗵 »** {raw_text0}\n\n 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 - ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ \n **👉@TargetUPSC_2026**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
