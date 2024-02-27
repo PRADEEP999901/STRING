@@ -106,9 +106,9 @@ async def account_login(bot: Client, m: Message):
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'no':
-        MR = ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛ 
+        MR = highlighter 
     else:
-        MR = ๛𝐌𝐑๛𝐑͜͡𝐀𝐉𝐏𝐔𝐓๛
+        MR = raw_text3
    
     await editable.edit("𝗦𝗲𝗻𝗱 𝗧𝗵𝘂𝗺𝗯 𝘂𝗿𝗹 𝗼𝗿 𝗶𝗺𝗮𝗴𝗲")
     input6 = message = await bot.listen(editable.chat.id)
